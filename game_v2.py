@@ -49,5 +49,3 @@ def score_game(number_predict) -> int:
 
 if __name__ == '__main__':
     score_game(random_predict)
-
-# That f*ckig thing doesn't work right. It's annouying me, and makes me mad
