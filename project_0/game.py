@@ -16,5 +16,4 @@ while True:
         print(f"Right guess! It's {number} Congratulations! It took you {count} attempts!")
         break # Stop if guessed right
     
-'Just wanna scream!!!'
     
