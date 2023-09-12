@@ -4,3 +4,7 @@ From the [Skillfactory Data Science cource](https://skillfactory.ru/data-scienti
 * [Project 0. Game: Guess the number](https://github.com/AlekseyTau/tau_ds_hw/tree/main/project_0)
 * [Project 1. ______________________]()
 * [Project 2. ______________________]()
+
+
+There was a very lon way to make this work. So let's see if it works now!
+
