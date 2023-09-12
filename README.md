@@ -7,4 +7,3 @@ From the [Skillfactory Data Science cource](https://skillfactory.ru/data-scienti
 
 
 There was a very lon way to make this work. So let's see if it works now!
-
