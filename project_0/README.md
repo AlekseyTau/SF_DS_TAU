@@ -42,3 +42,5 @@ Learning how to write good code on Python.
 ## Conclusions/Summary
 
 .......
+
+So if i changed anything here, it won't appear on the GitHub
