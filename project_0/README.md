@@ -1,46 +1,61 @@
-# Project 0. Game: Guess the number
+# Проект 0. Угадай число
 
-## Table of contents
-[1. Describing the project] ()
-[2. What case are we solving?] ()
-[3. Short information about data] ()
-[4. Stages of work on the project] ()
-[5. Result] ()
-[6. Conclusions/Summary] ()
+## Оглавление  
+[1. Описание проекта](.README.md#Описание-проекта)  
+[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
+[5. Результат](.README.md#Результат)    
+[6. Выводы](.README.md#Выводы) 
 
-### Desribing the project
-Guesss the number that is guessed.
-:arrow up: [To the Table of contents] ()
+### Описание проекта    
+Угадать загаданное компьютером число за минимальное число попыток.
 
-### What case are we solving?
-Needed to create a program, that guesses the guessed number using the minimal attempts.
+:arrow_up:[к оглавлению](_)
 
-**The rules of contest**
-- The computer is picking a number in a range from 1 to 100 and we have to guess it. By "guess" we understand to write a program that will guess the number.
-- The algorythm takes into account information was the random number bigger or smaller than the needed one.
 
-**The metrics of quality**
-Results are judged by average ammoutnt of attempts in 1000 repeats.
+### Какой кейс решаем?    
+Нужно написать программу, которая угадывает число за минимальное число попыток
 
-**What's practicing**
-Learning how to write good code on Python.
+**Условия соревнования:**  
+- Компьютер загадывает целое число от 0 до 100, и нам его нужно угадать. Под «угадать», подразумевается «написать программу, которая угадывает число».
+- Алгоритм учитывает информацию о том, больше ли случайное число или меньше нужного нам.
 
-## Short information about data
+**Метрика качества**     
+Результаты оцениваются по среднему количеству попыток при 1000 повторений
 
-......
+**Что практикуем**     
+Учимся писать хороший код на python
 
-:arrow up: [To Table of contents] ()
 
-## Stages of work on the project
+### Краткая информация о данных
+....
+  
+:arrow_up:[к оглавлению](.README.md#Оглавление)
 
-.......
 
-## Result
+### Этапы работы над проектом  
 
-.......
+Сперва была написана версия пограммы которая угадывала число случайным перебором всех чисел, которая давала правильный ответ в среднем за 100 попыток. 
 
-## Conclusions/Summary
+После этого была написана новая версия, которая использовала бинарный поиск для определения искомого числа и справлялась за 5 попыток. 
 
-.......
+:arrow_up:[к оглавлению](.README.md#Оглавление)
 
-So if i changed anything here, it won't appear on the GitHub
+
+### Результаты:  
+
+Наиболее оптимальное решение из использованных - бинарный поиск. Прирост результативности поиска составил 20 раз.
+
+:arrow_up:[к оглавлению](.README.md#Оглавление)
+
+
+### Выводы:  
+
+Использование прямого перебора во всем диапазоне вероятностей является малоэффективной методикой, особенно при экстраполяции на большие массивы данных. Для опимизации поисковых процессов более предпочтительно использовать специализированные методы, которые дают кратно лучший результат со стабильной повторяемостью.
+
+:arrow_up:[к оглавлению](.README.md#Оглавление)
+
+
+
+
