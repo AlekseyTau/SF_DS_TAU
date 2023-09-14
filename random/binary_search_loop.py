@@ -22,3 +22,5 @@ def search_predict(number: int = 1) -> int:
     return count
         
 print(search_predict(5))
+
+ 
